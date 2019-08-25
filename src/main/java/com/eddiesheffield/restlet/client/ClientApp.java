@@ -58,7 +58,8 @@ public class ClientApp
 
 		// Create the data Representation and add to request
 		Representation representation = getNewUserRepresentation(name, age, favoriteFood);
-		request.setEntity(representation);
+		request.setEntity(representation );
+
 		return request;
 	}
 
